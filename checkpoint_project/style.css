@@ -1,0 +1,37 @@
+h1{
+    font-size: 30px;
+    color: black;
+}
+/* slecting the class attribute dribble for styling */
+.dribble{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+
+}
+/* using decendant combinator */
+.center p{
+    text-align: center;
+
+}
+.center{
+    position: relative;
+    top:100px
+    
+}
+   
+ 
+.Overview p{
+    text-align: center;
+}
+.Overview{
+    padding: 50px;
+}
+.inline{
+    color: black;
+    display:inline-block;
+    width: 80%;
+}
+.inline a{
+    color: black;
+}
